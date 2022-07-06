@@ -10,11 +10,23 @@
         line-height: 30px;
     }
     
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 35px;
+    }
+    
     .txt-color {
         color: orange;
     }
     
-    section {
+    .flexible-container {
         display: flex;
         margin-bottom: 100px;
     }
@@ -27,6 +39,14 @@
     
     .half-width img {
         width: 80%;
+    }
+    
+    .experience-item {
+        box-shadow: 10px 10px 40px gray;
+        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-left: 15px;
     }
     
     .linkbtn {
@@ -66,4 +86,22 @@
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+    }
+    
+    .experience-area {
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    #full-stack-dev {
+        border-left: 7px solid tomato;
+    }
+    
+    #baby-stack-dev {
+        border-left: 7px solid rgb(11, 22, 145);
+    }
+    
+    footer p {
+        text-align: center;
     }
